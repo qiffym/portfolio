@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="pt-20 pb-32">
+    <section id="about" className="pt-32 pb-28">
       <div className="container">
         <div className="flex flex-wrap">
           {/* Kiri */}
@@ -8,28 +8,37 @@ const About = () => {
             <h4 className="mb-3 text-lg font-bold uppercase text-primary">
               Tentang Saya
             </h4>
-            <h2 className="mb-4 max-w-md text-3xl font-bold text-neutral lg:text-4xl">
+            <h2 className="mb-4 max-w-md text-3xl font-bold lg:text-4xl">
               Web Development Enthusiast
             </h2>
-            <p className="max-w-xl text-base font-medium text-secondary-focus lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis sint aliquam nostrum, sapiente eos sunt quaerat
-              aspernatur ipsum tempora delectus commodi, doloremque impedit quam
-              laudantium quae, sequi doloribus accusantium cumque expedita.
-              Incidunt esse, facilis sapiente distinctio, sed recusandae magnam,
-              optio obcaecati eos adipisci velit. Ex illum repellendus iste
-              nobis ab?
+            <p className="max-w-xl text-justify indent-10 text-base font-medium text-slate-500 lg:indent-0 lg:text-lg">
+              Saya seorang{' '}
+              <i className="border-b border-info">Fresh Graduate</i> S1
+              Pendidikan Teknologi Informasi, Fakultas Ilmu Komputer (FILKOM),
+              Universitas Brawijaya. Saya sangat tertarik di dalam dunia
+              teknologi khususnya dalam pengembangan aplikasi web atau web
+              development. Antusiasme saya terhadap bidang ini membuat saya suka
+              dan giat untuk belajar dari berbagai sumber dengan mengikuti
+              pelatihan, kursus, serta program magang dengan sungguh-sungguh.
+              Hasil nyatanya saya tuangkan dengan mengerjakan beberapa projek
+              pengembangan aplikasi web professional baik secara individu
+              ataupun <i>teamwork.</i>
             </p>
+            <p className="max-w-xl text-justify indent-10 text-base font-medium text-slate-500 lg:indent-0 lg:text-lg"></p>
+            <p className="max-w-xl text-base font-medium lg:text-lg"></p>
           </div>
 
           {/* Kanan */}
           <div className="w-full px-4 lg:w-1/2">
-            <h3 className="mb-4 text-2xl font-semibold text-neutral lg:pt-8 lg:text-3xl">
+            <h3 className="mb-4 text-2xl font-semibold lg:pt-8 lg:text-3xl">
               Ayo berteman
             </h3>
-            <p className="mb-6 text-base font-medium text-secondary-focus lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              maiores laudantium facere quae nam autem dolores, dicta molestiae!
+            <p className="mb-6 max-w-xl text-justify text-base font-medium text-slate-500 lg:text-lg">
+              Mengenal orang baru dan mendapatkan teman baru adalah salah satu
+              kesenangan terbesar dalam hidup.{' '}
+              <i className="border-b border-info">Follow</i> akun media sosial
+              saya untuk berteman dan tentu saya akan
+              <i className="border-b border-success"> Follow back</i> ✨
             </p>
             <div className="flex items-center gap-1">
               {/* LinkedIn */}
@@ -38,9 +47,9 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-outline btn-primary btn-sm btn-circle btn">
+                <button className="btn-outline btn-primary btn-circle btn">
                   <svg
-                    width={17}
+                    width={25}
                     role="img"
                     className="fill-current"
                     viewBox="0 0 24 24"
@@ -58,9 +67,9 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-outline btn-primary btn-sm btn-circle btn">
+                <button className="btn-outline btn-primary btn-circle btn">
                   <svg
-                    width={17}
+                    width={25}
                     className="fill-current"
                     role="img"
                     viewBox="0 0 24 24"
@@ -78,9 +87,9 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-outline btn-primary btn-sm btn-circle btn">
+                <button className="btn-outline btn-primary btn-circle btn">
                   <svg
-                    width={17}
+                    width={25}
                     className="fill-current"
                     role="img"
                     viewBox="0 0 24 24"
@@ -98,9 +107,9 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-outline btn-primary btn-sm btn-circle btn">
+                <button className="btn-outline btn-primary btn-circle btn">
                   <svg
-                    width={17}
+                    width={25}
                     className="fill-current"
                     role="img"
                     viewBox="0 0 24 24"
@@ -118,9 +127,9 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn-outline btn-primary btn-sm btn-circle btn">
+                <button className="btn-outline btn-primary btn-circle btn">
                   <svg
-                    width={17}
+                    width={25}
                     className="fill-current"
                     role="img"
                     viewBox="0 0 24 24"
