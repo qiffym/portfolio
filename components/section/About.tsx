@@ -6,7 +6,7 @@ const About = () => {
           {/* Kiri */}
           <div className="mb-10 w-full px-4 lg:w-1/2">
             <h4 className="mb-3 text-lg font-bold uppercase text-primary">
-              Tentang Saya
+              __Tentang Saya__
             </h4>
             <h2 className="mb-4 max-w-md text-3xl font-bold lg:text-4xl">
               Web Development Enthusiast

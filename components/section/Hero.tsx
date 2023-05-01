@@ -17,6 +17,9 @@ const Hero = () => {
             </h1>
             <h2 className="mb-5 font-medium text-secondary lg:text-xl xl:text-2xl">
               Web Developer
+              <span className="ml-2 border-l border-secondary pl-2">
+                Typist Master
+              </span>
               <span className="ml-2 border-l border-secondary pl-2 font-bold text-transparent">
                 BackEnd Engineer
               </span>

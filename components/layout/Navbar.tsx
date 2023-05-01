@@ -36,6 +36,7 @@ const Navbar = () => {
           >
             qiffym
           </Link>
+          {/* Theme Toggle */}
           <div>
             <label className="swap-rotate swap">
               <input type="checkbox" onClick={toggleTheme} />
@@ -58,6 +59,7 @@ const Navbar = () => {
               </svg>
             </label>
           </div>
+          {/* end Theme Toggle */}
         </div>
         <div className="flex items-center px-4">
           <button
@@ -81,7 +83,7 @@ const Navbar = () => {
           >
             <ul className="menu rounded-box menu-vertical bg-base-100 lg:menu-horizontal lg:bg-transparent">
               <li className="hover-bordered">
-                <Link href={'/'} onClick={scrollToTop}>
+                <Link href={'#beranda'} onClick={scrollToTop}>
                   Beranda
                 </Link>
               </li>
