@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
           {/* Theme Toggle */}
           <div>
-            <label className="swap-rotate swap">
+            <label className="swap swap-rotate">
               <input type="checkbox" onClick={toggleTheme} />
               <svg
                 className="swap-on h-7 w-7"
@@ -81,7 +81,7 @@ const Navbar = () => {
               !hamburger && 'hidden'
             } rounded-box absolute right-4 top-full w-full max-w-[250px] shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none`}
           >
-            <ul className="menu rounded-box menu-vertical bg-base-100 lg:menu-horizontal lg:bg-transparent">
+            <ul className="menu rounded-box menu-vertical bg-base-100 lg:menu-horizontal lg:rounded-none lg:bg-transparent">
               <li className="hover-bordered">
                 <Link href={'#beranda'} onClick={scrollToTop}>
                   Beranda

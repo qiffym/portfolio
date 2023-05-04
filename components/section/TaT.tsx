@@ -75,7 +75,7 @@ const TaT = () => {
                 data-tip="ExpressJS"
               >
                 <div className="mask mask-squircle flex h-28 w-28 items-center justify-center  bg-base-100 p-5 transition-transform hover:scale-110 lg:h-32 lg:w-32">
-                  <ExpressJS className="w-[70px] fill-primary  lg:w-[100px]" />
+                  <ExpressJS className="w-[70px] fill-base-content lg:w-[100px]" />
                 </div>
               </div>
               <div
@@ -99,7 +99,7 @@ const TaT = () => {
                 data-tip="NextJS"
               >
                 <div className="mask mask-squircle flex h-28 w-28 items-center justify-center  bg-base-100 p-5 transition-transform hover:scale-110 lg:h-32 lg:w-32">
-                  <NextLogo className="w-[70px] fill-primary lg:w-[100px]" />
+                  <NextLogo className="w-[70px] fill-base-content lg:w-[100px]" />
                 </div>
               </div>
             </div>

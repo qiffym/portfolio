@@ -14,11 +14,9 @@ const Portfolio = () => {
             <h2 className="mb-4 text-3xl font-bold lg:text-5xl">
               Project Terbaru
             </h2>
-            <p className="text-md font-medium text-slate-500 md:text-lg">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              vero tenetur voluptatum ipsam cum. Optio eveniet beatae eos porro.
-              Quam eligendi ut cumque delectus natus laborum! Ut architecto
-              voluptate sed.
+            <p className="text-md font-medium text-base-content md:text-lg">
+              Beberapa project yang pernah saya buat yang dapat Anda lihat atau
+              miliki dengan cara clone/download directory-nya pada GitHub saya
             </p>
           </div>
         </div>
@@ -32,10 +30,17 @@ const Portfolio = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                E-Learning SMK Negeri 3 Malang
-                <div className="badge badge-warning">2022</div>
+                <a
+                  href="https://eling-smkn3malang.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-base-content link-hover link"
+                >
+                  E-Learning SMK Negeri 3 Malang
+                </a>
+                <div className="badge-warning badge">2022</div>
               </h2>
-              <p className="text-base font-medium text-slate-500">
+              <p className="text-base font-medium text-base-content">
                 Merupakan projek dari tugas akhir/skripsi yang saya kerjakan.
                 Dikembangakan menggunakan{' '}
                 <b className="border-b border-error">Laravel 9</b> (back-end)
@@ -45,12 +50,12 @@ const Portfolio = () => {
               </p>
               <div className="card-actions w-full justify-end border-t border-secondary p-2">
                 <a
-                  href="https://eling-smkn3malang.vercel.app"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-hover link-primary"
+                  className="btn-link btn"
                 >
-                  Go
+                  See Directory
                 </a>
               </div>
             </div>
@@ -66,11 +71,17 @@ const Portfolio = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Website Sistem Informasi Kantor Kementerian Agama Kabupaten
-                Malang
-                <div className="badge badge-warning">2021</div>
+                <a
+                  href="https://malang.kemenag.go.id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-base-content link-hover link"
+                >
+                  Website KEMENAG Kabupaten Malang
+                </a>
+                <div className="badge-warning badge">2021</div>
               </h2>
-              <p className="text-base font-medium text-slate-500">
+              <p className="text-base font-medium text-base-content">
                 Merupakan suatu project sistem informasi berbasis website yang
                 dikerjakan selama melakukan magang sebagai staff it/web
                 developer selamat 3 (tiga) bulan di Kantor Kementerian Agama
@@ -82,12 +93,12 @@ const Portfolio = () => {
               </p>
               <div className="card-actions w-full justify-end border-t border-secondary p-2">
                 <a
-                  href="https://malang.kemenag.go.id"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-hover link-primary"
+                  className="btn-link btn"
                 >
-                  Go
+                  See Directory
                 </a>
               </div>
             </div>
@@ -104,23 +115,18 @@ const Portfolio = () => {
             <div className="card-body">
               <h2 className="card-title">
                 {"It's Fine App (Social Media)"}
-                <div className="badge badge-warning">2022</div>
+                <div className="badge-warning badge">2022</div>
               </h2>
-              <p className="text-base font-medium text-slate-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ratione cum libero consequatur harum alias id blanditiis ea
-                accusamus hic? Excepturi provident temporibus ipsum vero
-                consectetur, doloribus quidem delectus qui itaque sint autem
-                impedit odio exercitationem esse consequuntur alias accusantium
-                eligendi? Cupiditate quia non ducimus velit tempora, facere
-                assumenda eligendi eaque?
+              <p className="text-base font-medium text-base-content">
+                Merupakan project internal ketika melaksanakan internship di FAB
+                Indonesia. Pada pengembangan project ini saya berperan sebagai
+                seorang BackEnd Programmer yang bertugas membuat dan menyediakan
+                API berupa fitur-fitur dari aplikasi. Teknologi yang digunakan
+                dalam pengembangan API-nya adalah framework{' '}
+                <b className="border-b border-error">Laravel 8</b>.
               </p>
               <div className="card-actions w-full justify-end border-t border-secondary p-2">
-                <a
-                  href="#!"
-                  rel="noopener noreferrer"
-                  className="link-hover link-primary"
-                >
+                <a href="#!" rel="noopener noreferrer" className="btn-link btn">
                   Private Directory
                 </a>
               </div>

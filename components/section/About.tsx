@@ -11,7 +11,7 @@ const About = () => {
             <h2 className="mb-4 max-w-md text-3xl font-bold lg:text-4xl">
               Web Development Enthusiast
             </h2>
-            <p className="max-w-xl text-justify indent-10 text-base font-medium text-slate-500 lg:indent-0 lg:text-lg">
+            <p className="max-w-xl text-justify indent-10 text-base font-medium text-base-content lg:indent-0 lg:text-lg">
               Saya seorang{' '}
               <i className="border-b border-info">Fresh Graduate</i> S1
               Pendidikan Teknologi Informasi, Fakultas Ilmu Komputer (FILKOM),
@@ -24,7 +24,7 @@ const About = () => {
               pengembangan aplikasi web professional baik secara individu
               ataupun <i>teamwork.</i>
             </p>
-            <p className="max-w-xl text-justify indent-10 text-base font-medium text-slate-500 lg:indent-0 lg:text-lg"></p>
+            <p className="max-w-xl text-justify indent-10 text-base font-medium text-base-content lg:indent-0 lg:text-lg"></p>
             <p className="max-w-xl text-base font-medium lg:text-lg"></p>
           </div>
 
@@ -33,7 +33,7 @@ const About = () => {
             <h3 className="mb-4 text-2xl font-semibold lg:pt-8 lg:text-3xl">
               Ayo berteman
             </h3>
-            <p className="mb-6 max-w-xl text-justify text-base font-medium text-slate-500 lg:text-lg">
+            <p className="mb-6 max-w-xl text-justify text-base font-medium text-base-content lg:text-lg">
               Mengenal orang baru dan mendapatkan teman baru adalah salah satu
               kesenangan terbesar dalam hidup.{' '}
               <i className="border-b border-info">Follow</i> akun media sosial

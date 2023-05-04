@@ -9,12 +9,9 @@ const Hero = () => {
         <div className="flex flex-wrap lg:flex-row-reverse">
           {/* Kiri */}
           <div className="w-full self-center bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text px-4 lg:w-[60%]">
-            <h1 className="text-base font-semibold md:text-xl 2xl:text-2xl">
+            <h1 className="text-base font-semibold text-base-content md:text-xl 2xl:text-2xl">
               Halo Semua👋🏼, saya
-              <span
-                className="block text-4xl font-bold text-transparent lg:text-5xl 2xl:text-6xl"
-                style={{ fontFamily: 'Montserrat' }}
-              >
+              <span className="block font-display text-4xl font-bold text-transparent lg:text-5xl 2xl:text-6xl">
                 Qiff Ya Muhammad
               </span>
             </h1>
@@ -27,18 +24,22 @@ const Hero = () => {
                 BackEnd Engineer
               </span>
             </h2>
-            <figure className="font-serif font-medium italic">
+            <figure className="font-serif font-medium italic text-base-content">
               <q className="lg:text-lg">
                 Sebaik-baik manusia adalah yang paling bermanfaat bagi sesamanya
               </q>
-              <figcaption className="text-secondary">- H.R. Ahmad</figcaption>
+              <figcaption className="text-secondary">— H.R. Ahmad</figcaption>
             </figure>
             <br />
-            <Link href={'mailto:qiffyamuhammad11@gmail.com'}>
-              <button className="btn-primary rounded-box btn mt-10 gap-2">
+            <div className="btn-group mt-10">
+              <Link
+                href={'mailto:qiffyamuhammad11@gmail.com'}
+                className="btn btn-primary"
+              >
                 Hubungi Saya
-              </button>
-            </Link>
+              </Link>
+              <button className="btn">Download Resume</button>
+            </div>
           </div>
 
           {/* Kanan */}
