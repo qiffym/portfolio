@@ -11,11 +11,14 @@ const Hero = () => {
           <div className="w-full self-center bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text px-4 lg:w-[60%]">
             <h1 className="text-base font-semibold md:text-xl 2xl:text-2xl">
               Halo Semua👋🏼, saya
-              <span className="block text-4xl font-bold text-transparent lg:text-5xl 2xl:text-6xl">
+              <span
+                className="block text-4xl font-bold text-transparent lg:text-5xl 2xl:text-6xl"
+                style={{ fontFamily: 'Montserrat' }}
+              >
                 Qiff Ya Muhammad
               </span>
             </h1>
-            <h2 className="mb-5 font-medium text-secondary lg:text-xl xl:text-2xl">
+            <h2 className="mb-5 text-sm font-medium text-secondary md:text-base lg:text-xl xl:text-2xl">
               Web Developer
               <span className="ml-2 border-l border-secondary pl-2">
                 Typist Master
@@ -31,7 +34,7 @@ const Hero = () => {
               <figcaption className="text-secondary">- H.R. Ahmad</figcaption>
             </figure>
             <br />
-            <Link href={'#'}>
+            <Link href={'mailto:qiffyamuhammad11@gmail.com'}>
               <button className="btn-primary rounded-box btn mt-10 gap-2">
                 Hubungi Saya
               </button>

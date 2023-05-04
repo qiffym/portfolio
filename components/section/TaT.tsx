@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import ReactLogo from '../svg/react.svg';
 import Postman from '../svg/postman-icon.svg';
@@ -8,7 +7,6 @@ import Laravel from '../svg/laravel.svg';
 import NextLogo from '../svg/next.svg';
 import TSLogo from '../svg/typescript-icon.svg';
 import MySQL from '../svg/mysql.svg';
-import VSCode from '../svg/visual-studio-code.svg';
 import Tailwindcss from '../svg/tailwindcss-icon.svg';
 
 const TaT = () => {
@@ -60,7 +58,7 @@ const TaT = () => {
 
             <hr className="my-4 border-slate-600" />
 
-            <h2 className="mb-4 text-3xl font-bold text-teal-600 sm:text-4xl lg:text-5xl">
+            <h2 className="mb-4 text-3xl font-bold text-secondary sm:text-4xl lg:text-5xl">
               Recently learned
             </h2>
             <div className="flex flex-wrap items-center justify-center gap-3">
@@ -77,7 +75,7 @@ const TaT = () => {
                 data-tip="ExpressJS"
               >
                 <div className="mask mask-squircle flex h-28 w-28 items-center justify-center  bg-base-100 p-5 transition-transform hover:scale-110 lg:h-32 lg:w-32">
-                  <ExpressJS className="w-[70px] lg:w-[100px]" />
+                  <ExpressJS className="w-[70px] fill-primary  lg:w-[100px]" />
                 </div>
               </div>
               <div
@@ -101,7 +99,7 @@ const TaT = () => {
                 data-tip="NextJS"
               >
                 <div className="mask mask-squircle flex h-28 w-28 items-center justify-center  bg-base-100 p-5 transition-transform hover:scale-110 lg:h-32 lg:w-32">
-                  <NextLogo className="w-[70px] lg:w-[100px]" />
+                  <NextLogo className="w-[70px] fill-primary lg:w-[100px]" />
                 </div>
               </div>
             </div>
